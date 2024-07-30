@@ -42,5 +42,5 @@ for i, c in enumerate(lightened_colors):
 ax.view_init(elev=110, azim=-90)
 ax.set_axis_off()
 
-plt.savefig('cube.png')
+plt.savefig('cube.png', transparent=True)
 #plt.show()

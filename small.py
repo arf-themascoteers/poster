@@ -43,5 +43,5 @@ for i, c in enumerate(lightened_colors):
 ax.view_init(elev=110, azim=-90)
 ax.set_axis_off()
 
-plt.savefig('band.png')
+plt.savefig('band.png', transparent=True)
 #plt.show()
